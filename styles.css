@@ -1,0 +1,50 @@
+
+
+*{
+    font-family: 'Rubik';
+    /* outline: 2px solid green; */
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+}
+.small--header{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size:0.813rem;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #969696;
+}
+.actual{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 1.625rem;
+    /* line-height: 31px; */
+    letter-spacing: -0.008em;
+    color: #2B2B2B;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (max-width: 765px){
+    .actual{
+        font-size: 1.25rem; 
+        line-height: 24px;
+        text-align: center;
+    }
+    .small--header{
+        font-size: 0.6rem;
+        line-height: 11.85px;
+        margin-bottom: .2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.5625rem;
+    }
+    .border-start{
+        border: none !important;
+    }
+    h3{
+        margin-bottom: 3px;
+    }
+}

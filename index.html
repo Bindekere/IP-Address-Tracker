@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>IP Address Tracker</title>
+
+</head>
+<body>
+    <div class="container-xxl pt-2 position-relative" style="background-image: url(./images/pattern-bg.png); min-height: 15rem;"><!--had originally used 30vh-->
+        <h1 class=" text-center text-light">IP Address Tracker</h1>
+
+        <div class="col-12 col-md-5 p-1 mx-auto">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter IP address" aria-label="IP Address">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="input-enter">></span>
+                </div>
+                    
+            </div>
+        </div>
+            
+        <div class="position-absolute top-100 start-50 translate-middle w-75 border p-3" style="background: #FFFFFF;
+          border-radius: 15px;">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-3 text-left px-4">
+                  <p class="small--header">
+                      IP ADDRESS
+                  </p>
+                  <h3 class="actual">Place holder</h3>
+                </div>
+                <div class="col-12 col-md-3 text-left px-4 border-start border-secondary" style="--bs-border-opacity: .5;">
+                  <p class="small--header">
+                      LOCATION
+                  </p>
+                  <h3 class="actual">Place holder</h3></div>
+                <div class="col-12 col-md-3 text-left px-4 border-start border-secondary" style="--bs-border-opacity: .5;">
+                  <p class="small--header">
+                      TIMEZONE
+                  </p>
+                  <h3 class="actual">Place holder</h3></div>
+                <div class="col-12 col-md-3 text-left px-4 border-start border-secondary" style="--bs-border-opacity: .5;">
+                  <p class="small--header">
+                      ISP
+                  </p>
+                  <h3 class="actual">Place holder</h3></div>
+            </div>
+        </div>
+    </div>
+  
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aaron Bindekere</a>.
+  </footer> -->
+</body>
+</html>
