@@ -2,11 +2,15 @@
 
 *{
     font-family: 'Rubik';
-    /* outline: 2px solid green; */
+    /* box-sizing: border-box; */
+    margin: 0;
 }
 body{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .small--header{
     font-family: 'Rubik';
@@ -19,14 +23,17 @@ body{
 .actual{
     font-family: 'Rubik';
     font-weight: 500;
-    font-size: 1.625rem;
+    font-size: 1.5625rem;
     /* line-height: 31px; */
     letter-spacing: -0.008em;
     color: #2B2B2B;
 }
+.ipInfo{
+    min-width: 700px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-@media screen and (max-width: 765px){
+@media screen and (max-width: 768px){
     .actual{
         font-size: 1.25rem; 
         line-height: 24px;
@@ -46,5 +53,8 @@ body{
     }
     h3{
         margin-bottom: 3px;
+    }
+    .ipInfo{
+        min-width: 200px;
     }
 }
