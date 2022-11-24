@@ -9,12 +9,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>
   <link rel="stylesheet" href="styles.css">
 
   <title>IP Address Tracker</title>
 
 </head>
-<body>
+<body onload="getUserIP()">
     <div class="container-xxl pt-2 position-relative" style="background-image: url(./images/pattern-bg.png); min-height: 15rem;"><!--had originally used 30vh-->
         <h1 class=" text-center text-light">IP Address Tracker</h1>
 
@@ -52,16 +58,20 @@
                   <p class="small--header">
                       ISP
                   </p>
-                  <h3 class="actual">Place holder</h3></div>
+                  <h3 class="actual" >Place holder</h3></div>
             </div>
         </section>
     </div>
-    <main class="flex-grow-1 h-100 d-flex align-items-center text-center"></main>
+    <main class="flex-grow-1 h-100 text-center position-relative">
+      <!-- <div id="map"></div> -->
+    </main>
   
-  <!-- <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Aaron Bindekere</a>.
-  </footer> -->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Bindekere">Aaron Bindekere</a>.
+  </footer>
+ 
+  
   <script src="index.js"></script>
 </body>
 </html>
