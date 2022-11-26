@@ -12,6 +12,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.container-xxl{
+    background-image: url("../images/pattern.PNG");
+}
 .small--header{
     font-family: 'Rubik';
     font-weight: 600;

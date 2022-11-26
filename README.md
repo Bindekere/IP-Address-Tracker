@@ -62,7 +62,7 @@ If you want more help with Frontend development, I'd recommend checking out [Scr
 
 ### Useful resources
 
-- [The Net Ninja](https://www.youtube.com/watch?v=O_9u1P5YjVc&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR) - This is the resource I used to learn bootstrap. It is a short but precise course. Do not forget to code along with the tutorials instead of just watching
+- [The Net Ninja](https://www.youtube.com/watch?v=O_9u1P5YjVc&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR) - This is the resource I used to learn bootstrap. It is a short but precise course. Do not forget to code along with the tutorials instead of just watching.
 - [Bootstrap Docs](https://getbootstrap.com/) - The bootstrap docs is probably the best resource for learning Bootstrap as it is conscise and well explained. It also contains pre-built bootstrap components.
 
 ## Author
