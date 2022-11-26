@@ -21,40 +21,40 @@
 
 </head>
 <body onload="getUserIP()">
-    <div class="container-xxl pt-2 position-relative" style="background-image: url('./pattern.PNG'); min-height: 15rem;"><!--had originally used 30vh-->
-        <h1 class=" text-center text-light">IP Address Tracker</h1>
+    <div class="container-fluid pt-4 position-relative" style="background-image: url('./pattern.PNG'); min-height: 15rem;"><!--had originally used 30vh-->
+        <h2 class="text-center text-light mb-3">IP Address Tracker</h2>
 
         <section class="col-12 col-md-5 p-1 mx-auto">
-            <div class="input-group mb-3">
+            <div class="input-group mb-3" style="height: 2.5rem;">
                 <input type="search" class="form-control" id="ipInput" placeholder="Enter IP address" aria-label="IP Address">
                 
-                <div class="input-group-append">
-                    <button class="btn btn-secondary" type="button">></button>
+                <div class="input-group-append" style="height: 2.5rem;">
+                    <button class="btn btn-dark" style="height: 2.5rem; border-radius: 0rem .5rem .5rem 0rem;"type="button">></button>
                 </div>
                     
             </div>
         </section>
             
-        <section class="ipInfo position-absolute top-100 start-50 translate-middle w-75 border p-3" style="background: #FFFFFF;
+        <section class="ipInfo position-absolute top-100 start-50 translate-middle w-75 border p-3 py-4" style="background: #FFFFFF;
           border-radius: 15px;">
             <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-md-3 text-left px-3">
+                <div class="col-12 col-md-3 text-left px-4">
                   <p class="small--header">
                       IP ADDRESS
                   </p>
                   <h3 class="actual">Place holder</h3>
                 </div>
-                <div class="col-12 col-md-3 text-left px-3 border-start border-secondary" style="--bs-border-opacity: .5;">
+                <div class="col-12 col-md-3 text-left px-4 border-start border-secondary" style="--bs-border-opacity: .5;">
                   <p class="small--header">
                       LOCATION
                   </p>
                   <h3 class="actual">Place holder</h3></div>
-                <div class="col-12 col-md-3 text-left px-3 border-start border-secondary" style="--bs-border-opacity: .5;">
+                <div class="col-12 col-md-3 text-left px-4 border-start border-secondary" style="--bs-border-opacity: .5;">
                   <p class="small--header">
                       TIMEZONE
                   </p>
                   <h3 class="actual">Place holder</h3></div>
-                <div class="col-12 col-md-3 text-left px-3 border-start border-secondary" style="--bs-border-opacity: .5;">
+                <div class="col-12 col-md-3 text-left px-4 border-start border-secondary" style="--bs-border-opacity: .5;">
                   <p class="small--header">
                       ISP
                   </p>
